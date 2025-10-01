@@ -216,7 +216,7 @@ with st.sidebar:
     st.caption('💡 Dica: peça coisas como _"histograma de Amount"_ ou _"correlação entre X e Y"_.')
 
 # ========================= Chave de API =========================
-api_key = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY")
+api_key = st.secrets.get("OPENAI_API_KEY")
 if not api_key:
     st.error('A chave de API da OpenAI não foi encontrada. Defina `OPENAI_API_KEY`.')
     st.stop()
