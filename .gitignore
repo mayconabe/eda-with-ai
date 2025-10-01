@@ -1,0 +1,52 @@
+# =========================
+# Arquivos sensíveis
+# =========================
+.env
+*.env
+.env.*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# =========================
+# Virtualenv
+# =========================
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# =========================
+# Jupyter/Streamlit
+# =========================
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs temporários
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.code-workspace
