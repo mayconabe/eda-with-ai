@@ -5,3 +5,4 @@ matplotlib>=3.8
 plotly>=5.23
 openai>=1.40.0
 seaborn
+tabulate

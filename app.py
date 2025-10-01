@@ -203,7 +203,6 @@ st.session_state.setdefault('insights', [])
 # ========================= Sidebar =========================
 with st.sidebar:
     st.markdown('### ⚙️ Configurações')
-    st.caption('Defina sua chave de API da OpenAI como variável de ambiente `OPENAI_API_KEY`.')
 
     uploaded_file = st.file_uploader('📥 Envie um CSV', type=['csv'])
 
